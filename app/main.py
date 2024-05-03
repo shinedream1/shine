@@ -24,6 +24,7 @@ Base.metadata.create_all(bind=engine)
 
 class TodoCreate(BaseModel):
     title: str
+    description: str
 
 class TodoUpdate(BaseModel):
     title: str
